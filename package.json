@@ -1,5 +1,5 @@
 {
-  "name": "fitness-target",
+  "name": "workout-tracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JSK321/Fitness-Target.git"
+    "url": "https://github.com/dadwanteat/workoutTracker"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JSK321/Fitness-Target/issues"
+    "url": "https://github.com/dadwanteat/workoutTracker/blob/main/issues"
   },
-  "homepage": "https://github.com/JSK321/Fitness-Target#readme",
+  "homepage": "https://github.com/dadwanteat/workoutTracker/blob/main/README.md",
   "dependencies": {
     "express": "^4.17.1",
     "mongo": "^0.1.0",
