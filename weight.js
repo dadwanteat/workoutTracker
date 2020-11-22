@@ -2,38 +2,38 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const WeightSchema = new Schema({
-    weightDay: {
-        type: String,
-        required: "Select day",
-        unique: true,
-    },
+  weightDay: {
+    type: String,
+    required: "Select day",
+    unique: true,
+  },
 
-    name: {
-        type: String,
-        trim: true,
-        required: "Exercise required."
-    }, 
-    
-    type: {
-        type: String,
-        trim: true,
-        required: "Excercise required."
-    },
+  name: {
+    type: String,
+    trim: true,
+    required: "Exercise required.",
+  },
 
-    sets: {
-        type: Number,
-        required: true,
-    },
+  type: {
+    type: String,
+    trim: true,
+    required: "Excercise required.",
+  },
 
-    reps: {
-        type: Number,
-        required: true,
-    },
+  sets: {
+    type: Number,
+    required: true,
+  },
 
-    weightDur: {
-        type: Number,
-    },
-})
+  reps: {
+    type: Number,
+    required: true,
+  },
+
+  weightDur: {
+    type: Number,
+  },
+});
 
 const Weight = mongoose.model("Weight", WeightSchema);
 
