@@ -1,28 +1,28 @@
 {
-  "name": "workout-tracker",
+  "name": "workouttracker",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.10.15",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dadwanteat/workoutTracker"
+    "url": "git+https://github.com/dadwanteat/workoutTracker.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dadwanteat/workoutTracker/blob/main/issues"
+    "url": "https://github.com/dadwanteat/workoutTracker/issues"
   },
-  "homepage": "https://github.com/dadwanteat/workoutTracker/blob/main/README.md",
-  "dependencies": {
-    "express": "^4.17.1",
-    "mongo": "^0.1.0",
-    "mongojs": "^3.1.0",
-    "mongoose": "^5.10.15",
-    "morgan": "^1.10.0",
-    "path": "^0.12.7"
-  }
+  "homepage": "https://github.com/dadwanteat/workoutTracker#readme"
 }
